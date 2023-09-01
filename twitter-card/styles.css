@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .tweet-card {
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 16px;
+    width: 400px;
+  }
+  
+  .profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+  }
+  
+  .tweet-content {
+    flex: 1;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #1da1f2;
+  }
+  
+  .tweet-text {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .interactions {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    color: #657786;
+    font-size: 14px;
+  }
+  
+  .icon {
+    margin-right: 4px;
+
+  }
+  
+  .retweets {
+    margin-right: 10px;
+  }
+  
+  .likes {
+    margin-left: 4px;
+  }
+ 
+  
